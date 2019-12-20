@@ -1,0 +1,13 @@
+I met this problem when I installed the packages from github which were not put on CRAN.
+
+Here is my solutions.
+
+For example, I tried to install package 'bruceR' from github. Soon the R studio report "dependencies 'interactions', 'multilevel', 'pwr', 'simr', 'MBESS', 'texreg', 'semPlot' are not available for package 'bruceR'"
+
+In my understanding, this error is caused by these packages could not be successfully downloaded or installed while installing the target package (i.e. 'bruceR'). And the success installation of target package depends on success installation of these dependencies packages.
+
+So I installed the dependencies packages manually. (i.e. input 'install.packages(interactions)' 'install.packages(multilevel)' etc.)
+
+After successfully installing them, I finally installed the target packages.
+
+In short, to solve this error, just install the dependencies packages manually.
