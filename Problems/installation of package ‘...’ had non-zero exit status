@@ -1,1 +1,5 @@
-
+While installing R packages, sometime I meet with this reported error: "installation of package ‘...’ had non-zero exit status".  
+Here is my solution.  
+Solution 1: Quit R Studio and turn on it again. 
+Solution 2: Update all the packages before installing the new packages.  
+Most of the time, the mentioned solutions can solve this error. 
