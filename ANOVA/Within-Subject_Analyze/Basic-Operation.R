@@ -1,4 +1,5 @@
 # The needed packages: psych, xlsx, bruceR
+# This code can compute main effect and interaction, with F values, η^2, confidence interval.
 # use wide-format data (same format as SPSS) to conduct 2-factors ANOVA
 rm(list=ls()) #clear global environment
 library(xlsx)
