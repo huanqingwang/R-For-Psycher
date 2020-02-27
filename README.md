@@ -4,4 +4,5 @@ Although these analyzes are not advanced, they do satisfy the basic needs. Hope 
 Suggestions for debugging or optimizing are welcomed.  
 The following are the functions that have already been achieved (I am continually updating).  
 ANOVA (multiple factors multiple levels within subject analyze).  
-Multiple comparisons & simple effect analyze
+Multiple comparisons & simple effect analyze.
+Linear regression.
