@@ -7,3 +7,6 @@ t-test (independent & paired t-test).
 ANOVA (multiple factors multiple levels within subject analyze).  
 Multiple comparisons & simple effect analyze.  
 Linear regression.  
+violin plot.  
+3-D plot.  
+General linear mixed model.  
