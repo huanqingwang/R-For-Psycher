@@ -4,7 +4,7 @@ library(xlsx)
 library(car)
 library(afex)
 library(emmeans)
-rawdata=read.xlsx('C:/Users/dell/OneDrive/Documents/2019Socialdecision/fMRI/behavior_data/Behavior_analyse/decision_analyse/79total.xlsx','Sheet6')
+rawdata=read.xlsx('add your file path')
 deci_aov=aov_ez("Subject","decision",rawdata,within=c("harm","people"))
 anova(deci_aov,es="pes")#calculate effect size
 r1 <- emmeans(deci_aov, ~harm+people, model = "multivariate")#descriptive
