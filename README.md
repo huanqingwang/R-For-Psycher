@@ -10,3 +10,4 @@ Linear regression.
 violin plot.  
 3-D plot.  
 General linear mixed model.  
+Permutation.
